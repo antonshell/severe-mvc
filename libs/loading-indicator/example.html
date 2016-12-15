@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="ajaxloader.css">
+
+        <script src="jquery.ajaxloader.1.5.0.min.js"></script>
+
+        <script type="text/javascript">
+            $( document ).ready(function() {
+                $('#loader-demo').on('click',function(){
+                    $(".loader").show();
+
+                    setTimeout(function(){
+                        $(".loader").hide();
+                    }, 3000);
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h1>Simple loading indicator</h1>
+            <p>This is simple loading indicator</p>
+            <p><a id="loader-demo" role="button" href="#" class="btn btn-primary btn-lg">Demo</a></p>
+        </div>
+
+    </body>
+
+    <div class="loader"></div>
+
+</html>
