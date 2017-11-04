@@ -1,1 +1,0 @@
-database config: application/database/config.php
