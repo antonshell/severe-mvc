@@ -5,6 +5,11 @@ This is just for fun. I don't recommend to use it for real projects.
 Here is a [**demo**][1], just in case...
 Code is not ideal as well...
 
+<p align="center">
+    <a href="http://www.yiiframework.com/" target="_blank">
+        <img src="http://demo.antonshell.me/images/severe-mvc.jpg" alt="severe-mvc" />
+    </a>
+</p>
 
 # Installation
 
@@ -15,7 +20,7 @@ Code is not ideal as well...
 3 . Edit database cofig
 
 ```
-application/database/config.php
+application/config/config.php
 ```
 
 
