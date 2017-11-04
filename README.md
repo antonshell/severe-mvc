@@ -28,4 +28,4 @@ application/config/config.php
 
 5 . Profit!
 
-[1]: http://demo.antonshell.me/credit_card_calculator/
+[1]: http://demo.antonshell.me/severe-mvc/
